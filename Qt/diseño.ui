@@ -1,0 +1,2028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1066</width>
+    <height>710</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,8">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame_Superior">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>42</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QFrame{
+background-color: rgb(0, 0, 0);
+}
+
+QPushButton{
+background-color:#000000ff;
+}
+
+QPushButton:hover{
+background-color: rgb(53, 53, 79);
+border-radius:20px;
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <property name="spacing">
+           <number>5</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="styleSheet">
+             <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>Facturacion Tienda Agricola</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>567</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="minimizar">
+            <property name="minimumSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>image (3).png</normaloff>image (3).png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="restaurar">
+            <property name="minimumSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>image (2).png</normaloff>image (2).png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="maximizar">
+            <property name="minimumSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>image.png</normaloff>image.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="cerrar">
+            <property name="minimumSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>x.png</normaloff>x.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_Inferior">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <property name="spacing">
+           <number>5</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame_lateral">
+            <property name="minimumSize">
+             <size>
+              <width>250</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QFrame{
+background-color: rgb(0, 0, 0);
+}
+
+QPushButton{
+background-color:#000000ff;
+border-top-left-radius:20px;
+border-bottom-left-radius:20px;
+}
+
+QPushButton:hover{
+background-color: rgb(76, 76, 76);
+border-top-left-radius:20px;
+border-bottom-left-radius:20px;
+}</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <widget class="QPushButton" name="lateralAgregarCliente">
+               <property name="styleSheet">
+                <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+</string>
+               </property>
+               <property name="text">
+                <string>Agregar Cliente</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="lateralMostrarCliente">
+               <property name="styleSheet">
+                <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+</string>
+               </property>
+               <property name="text">
+                <string>Mostrar Clientes</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="lateralAgregarProducto">
+               <property name="styleSheet">
+                <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+</string>
+               </property>
+               <property name="text">
+                <string>Agregar Producto</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="lateralMostrarProducto">
+               <property name="styleSheet">
+                <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+</string>
+               </property>
+               <property name="text">
+                <string>Mostrar Productos</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="lateralFacturas">
+               <property name="styleSheet">
+                <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+</string>
+               </property>
+               <property name="text">
+                <string>Facturas</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_contenedor">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QStackedWidget" name="stackedWidget">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(126, 126, 126);
+
+QFrame{
+background-color: rgb(255, 255, 255);
+}</string>
+               </property>
+               <property name="currentIndex">
+                <number>0</number>
+               </property>
+               <widget class="QWidget" name="cliente">
+                <property name="styleSheet">
+                 <string notr="true">QFrame{
+background-color: rgb(0, 0, 0);
+}</string>
+                </property>
+                <widget class="QGroupBox" name="groupBoxAgregarC">
+                 <property name="geometry">
+                  <rect>
+                   <x>40</x>
+                   <y>30</y>
+                   <width>711</width>
+                   <height>231</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QGroupBox{
+font: 87 20pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(7, 7, 7);
+border-radius: 5;
+}
+
+
+QPushButton{
+background-color:#000000ff;
+}
+
+QPushButton:hover{
+background-color: rgb(53, 53, 79);
+border-radius:20px;
+}</string>
+                 </property>
+                 <property name="title">
+                  <string>Agregar Cliente</string>
+                 </property>
+                 <widget class="QLineEdit" name="cedula">
+                  <property name="geometry">
+                   <rect>
+                    <x>150</x>
+                    <y>100</y>
+                    <width>151</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLineEdit" name="nombre">
+                  <property name="geometry">
+                   <rect>
+                    <x>150</x>
+                    <y>170</y>
+                    <width>221</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_2">
+                  <property name="geometry">
+                   <rect>
+                    <x>40</x>
+                    <y>100</y>
+                    <width>81</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+</string>
+                  </property>
+                  <property name="text">
+                   <string>Cedula:</string>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_3">
+                  <property name="geometry">
+                   <rect>
+                    <x>40</x>
+                    <y>170</y>
+                    <width>101</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+</string>
+                  </property>
+                  <property name="text">
+                   <string>Nombre:</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="btAgregarCliente">
+                  <property name="geometry">
+                   <rect>
+                    <x>500</x>
+                    <y>100</y>
+                    <width>161</width>
+                    <height>71</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Arial Black</family>
+                    <pointsize>20</pointsize>
+                    <weight>10</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 20pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+
+
+
+</string>
+                  </property>
+                  <property name="text">
+                   <string>Agregar</string>
+                  </property>
+                 </widget>
+                </widget>
+                <widget class="QGroupBox" name="groupBox_EliminarC">
+                 <property name="geometry">
+                  <rect>
+                   <x>40</x>
+                   <y>350</y>
+                   <width>711</width>
+                   <height>201</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QGroupBox{
+font: 87 20pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(7, 7, 7);
+border-radius: 5;
+}
+
+
+QPushButton{
+background-color:#000000ff;
+}
+
+QPushButton:hover{
+background-color: rgb(53, 53, 79);
+border-radius:20px;
+}
+</string>
+                 </property>
+                 <property name="title">
+                  <string>Eliminar Cliente</string>
+                 </property>
+                 <widget class="QLineEdit" name="cedulaEli">
+                  <property name="geometry">
+                   <rect>
+                    <x>160</x>
+                    <y>100</y>
+                    <width>151</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+
+font: 87 12pt &quot;Arial Black&quot;;
+</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_6">
+                  <property name="geometry">
+                   <rect>
+                    <x>50</x>
+                    <y>100</y>
+                    <width>81</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>Cedula:</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="btEliminar">
+                  <property name="geometry">
+                   <rect>
+                    <x>500</x>
+                    <y>60</y>
+                    <width>161</width>
+                    <height>71</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Arial Black</family>
+                    <pointsize>20</pointsize>
+                    <weight>10</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 20pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+                  </property>
+                  <property name="text">
+                   <string>Eliminar</string>
+                  </property>
+                 </widget>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="MostrarCli">
+                <widget class="QTableWidget" name="tablaClientes">
+                 <property name="geometry">
+                  <rect>
+                   <x>40</x>
+                   <y>30</y>
+                   <width>731</width>
+                   <height>571</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+
+background-color: rgb(255, 255, 255);
+</string>
+                 </property>
+                 <property name="showGrid">
+                  <bool>true</bool>
+                 </property>
+                 <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+                  <bool>false</bool>
+                 </attribute>
+                 <attribute name="horizontalHeaderStretchLastSection">
+                  <bool>true</bool>
+                 </attribute>
+                 <attribute name="verticalHeaderVisible">
+                  <bool>false</bool>
+                 </attribute>
+                 <column>
+                  <property name="text">
+                   <string>Cedula</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Nombre</string>
+                  </property>
+                 </column>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="Producto">
+                <widget class="QGroupBox" name="groupBox">
+                 <property name="geometry">
+                  <rect>
+                   <x>50</x>
+                   <y>20</y>
+                   <width>701</width>
+                   <height>171</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QGroupBox{
+font: 87 20pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(7, 7, 7);
+border-radius: 5;
+}
+
+
+QPushButton{
+background-color:#000000ff;
+}
+
+QPushButton:hover{
+background-color: rgb(53, 53, 79);
+border-radius:20px;
+}</string>
+                 </property>
+                 <property name="title">
+                  <string>Tipo de Producto</string>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_3">
+                  <item>
+                   <widget class="QPushButton" name="btAntibiotico">
+                    <property name="styleSheet">
+                     <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);</string>
+                    </property>
+                    <property name="text">
+                     <string>Antibiotico</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="btFertilizante">
+                    <property name="styleSheet">
+                     <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);</string>
+                    </property>
+                    <property name="text">
+                     <string>Fertilizante</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="btPlagas">
+                    <property name="styleSheet">
+                     <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);</string>
+                    </property>
+                    <property name="text">
+                     <string>Control Plagas</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QStackedWidget" name="stackedWidgetPro">
+                 <property name="geometry">
+                  <rect>
+                   <x>40</x>
+                   <y>220</y>
+                   <width>731</width>
+                   <height>411</height>
+                  </rect>
+                 </property>
+                 <property name="currentIndex">
+                  <number>0</number>
+                 </property>
+                 <widget class="QWidget" name="pgAntibiotico">
+                  <widget class="QGroupBox" name="groupBox_2">
+                   <property name="geometry">
+                    <rect>
+                     <x>10</x>
+                     <y>20</y>
+                     <width>701</width>
+                     <height>381</height>
+                    </rect>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QGroupBox{
+font: 87 20pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(7, 7, 7);
+border-radius: 5;
+}
+
+
+QPushButton{
+background-color:#000000ff;
+}
+
+QPushButton:hover{
+background-color: rgb(53, 53, 79);
+border-radius:20px;
+}</string>
+                   </property>
+                   <property name="title">
+                    <string>Agregar Antibiotico</string>
+                   </property>
+                   <widget class="QLabel" name="labelanti">
+                    <property name="geometry">
+                     <rect>
+                      <x>30</x>
+                      <y>120</y>
+                      <width>101</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+</string>
+                    </property>
+                    <property name="text">
+                     <string>Nombre:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="nombreAntibiotico">
+                    <property name="geometry">
+                     <rect>
+                      <x>140</x>
+                      <y>120</y>
+                      <width>221</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="dosisAntibiotico">
+                    <property name="geometry">
+                     <rect>
+                      <x>510</x>
+                      <y>120</y>
+                      <width>131</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="labelanti_2">
+                    <property name="geometry">
+                     <rect>
+                      <x>400</x>
+                      <y>120</y>
+                      <width>101</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+</string>
+                    </property>
+                    <property name="text">
+                     <string>Dosis:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="labelanti_3">
+                    <property name="geometry">
+                     <rect>
+                      <x>400</x>
+                      <y>190</y>
+                      <width>101</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+</string>
+                    </property>
+                    <property name="text">
+                     <string>Precio:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="precioAntibiotico">
+                    <property name="geometry">
+                     <rect>
+                      <x>510</x>
+                      <y>190</y>
+                      <width>131</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="labelanti_4">
+                    <property name="geometry">
+                     <rect>
+                      <x>30</x>
+                      <y>190</y>
+                      <width>171</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+</string>
+                    </property>
+                    <property name="text">
+                     <string>Tipo de animal:</string>
+                    </property>
+                   </widget>
+                   <widget class="QComboBox" name="tipoAnimal">
+                    <property name="geometry">
+                     <rect>
+                      <x>210</x>
+                      <y>190</y>
+                      <width>151</width>
+                      <height>22</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 87 10pt &quot;Arial Black&quot;;
+border-radius: 5;</string>
+                    </property>
+                    <item>
+                     <property name="text">
+                      <string>Seleccione...</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Bovinos</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Caprinos</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Porcinos</string>
+                     </property>
+                    </item>
+                   </widget>
+                   <widget class="QPushButton" name="btAgregarPro">
+                    <property name="geometry">
+                     <rect>
+                      <x>450</x>
+                      <y>260</y>
+                      <width>181</width>
+                      <height>61</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 87 20pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+                    </property>
+                    <property name="text">
+                     <string>Agregar</string>
+                    </property>
+                   </widget>
+                  </widget>
+                 </widget>
+                 <widget class="QWidget" name="pgFertilizante">
+                  <widget class="QGroupBox" name="groupBox_3">
+                   <property name="geometry">
+                    <rect>
+                     <x>10</x>
+                     <y>20</y>
+                     <width>701</width>
+                     <height>381</height>
+                    </rect>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QGroupBox{
+font: 87 20pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(7, 7, 7);
+border-radius: 5;
+}
+
+
+QPushButton{
+background-color:#000000ff;
+}
+
+QPushButton:hover{
+background-color: rgb(53, 53, 79);
+border-radius:20px;
+}</string>
+                   </property>
+                   <property name="title">
+                    <string>Agregar Fertilizante</string>
+                   </property>
+                   <widget class="QLabel" name="labelanti_9">
+                    <property name="geometry">
+                     <rect>
+                      <x>30</x>
+                      <y>100</y>
+                      <width>101</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+</string>
+                    </property>
+                    <property name="text">
+                     <string>ICA:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="ICAFertilizante">
+                    <property name="geometry">
+                     <rect>
+                      <x>90</x>
+                      <y>100</y>
+                      <width>151</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="nombreFertilizante">
+                    <property name="geometry">
+                     <rect>
+                      <x>400</x>
+                      <y>100</y>
+                      <width>201</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="labelanti_10">
+                    <property name="geometry">
+                     <rect>
+                      <x>290</x>
+                      <y>100</y>
+                      <width>101</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+</string>
+                    </property>
+                    <property name="text">
+                     <string>Nombre:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="labelanti_11">
+                    <property name="geometry">
+                     <rect>
+                      <x>30</x>
+                      <y>180</y>
+                      <width>131</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+</string>
+                    </property>
+                    <property name="text">
+                     <string>Frecuencia: </string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="frecuenciaFertilizante">
+                    <property name="geometry">
+                     <rect>
+                      <x>170</x>
+                      <y>180</y>
+                      <width>121</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="labelanti_12">
+                    <property name="geometry">
+                     <rect>
+                      <x>360</x>
+                      <y>180</y>
+                      <width>131</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+</string>
+                    </property>
+                    <property name="text">
+                     <string>Precio:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="precioFertilizante">
+                    <property name="geometry">
+                     <rect>
+                      <x>500</x>
+                      <y>180</y>
+                      <width>121</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="labelanti_13">
+                    <property name="geometry">
+                     <rect>
+                      <x>30</x>
+                      <y>260</y>
+                      <width>211</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+</string>
+                    </property>
+                    <property name="text">
+                     <string>Ultima aplicacion:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="ultimaApliFertilizante">
+                    <property name="geometry">
+                     <rect>
+                      <x>250</x>
+                      <y>260</y>
+                      <width>131</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                   <widget class="QPushButton" name="btAgregarFer">
+                    <property name="geometry">
+                     <rect>
+                      <x>460</x>
+                      <y>280</y>
+                      <width>181</width>
+                      <height>61</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 87 20pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+                    </property>
+                    <property name="text">
+                     <string>Agregar</string>
+                    </property>
+                   </widget>
+                  </widget>
+                 </widget>
+                 <widget class="QWidget" name="pgPlagas">
+                  <widget class="QGroupBox" name="groupBox_4">
+                   <property name="geometry">
+                    <rect>
+                     <x>10</x>
+                     <y>20</y>
+                     <width>701</width>
+                     <height>371</height>
+                    </rect>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QGroupBox{
+font: 87 20pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(7, 7, 7);
+border-radius: 5;
+}
+
+
+QPushButton{
+background-color:#000000ff;
+}
+
+QPushButton:hover{
+background-color: rgb(53, 53, 79);
+border-radius:20px;
+}</string>
+                   </property>
+                   <property name="title">
+                    <string>Agregar Control de Plagas</string>
+                   </property>
+                   <widget class="QLineEdit" name="ICAPlagas">
+                    <property name="geometry">
+                     <rect>
+                      <x>90</x>
+                      <y>120</y>
+                      <width>151</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="labelanti_14">
+                    <property name="geometry">
+                     <rect>
+                      <x>30</x>
+                      <y>120</y>
+                      <width>51</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+</string>
+                    </property>
+                    <property name="text">
+                     <string>ICA:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="labelanti_17">
+                    <property name="geometry">
+                     <rect>
+                      <x>40</x>
+                      <y>190</y>
+                      <width>131</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+</string>
+                    </property>
+                    <property name="text">
+                     <string>Frecuencia: </string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="labelanti_16">
+                    <property name="geometry">
+                     <rect>
+                      <x>300</x>
+                      <y>130</y>
+                      <width>101</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+</string>
+                    </property>
+                    <property name="text">
+                     <string>Nombre:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="precioPlaga">
+                    <property name="geometry">
+                     <rect>
+                      <x>510</x>
+                      <y>190</y>
+                      <width>121</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="nombrePlaga">
+                    <property name="geometry">
+                     <rect>
+                      <x>410</x>
+                      <y>130</y>
+                      <width>201</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="labelanti_15">
+                    <property name="geometry">
+                     <rect>
+                      <x>370</x>
+                      <y>190</y>
+                      <width>131</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+</string>
+                    </property>
+                    <property name="text">
+                     <string>Precio:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="frecuenciaPlaga">
+                    <property name="geometry">
+                     <rect>
+                      <x>180</x>
+                      <y>190</y>
+                      <width>121</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="labelanti_18">
+                    <property name="geometry">
+                     <rect>
+                      <x>40</x>
+                      <y>260</y>
+                      <width>111</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+</string>
+                    </property>
+                    <property name="text">
+                     <string>Carencia:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="carenciaPlaga">
+                    <property name="geometry">
+                     <rect>
+                      <x>170</x>
+                      <y>260</y>
+                      <width>201</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                   <widget class="QPushButton" name="btAgregarPlaga">
+                    <property name="geometry">
+                     <rect>
+                      <x>460</x>
+                      <y>270</y>
+                      <width>181</width>
+                      <height>61</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 87 20pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+                    </property>
+                    <property name="text">
+                     <string>Agregar</string>
+                    </property>
+                   </widget>
+                  </widget>
+                 </widget>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="MostrarPro">
+                <widget class="QGroupBox" name="groupBox_5">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>811</width>
+                   <height>651</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QGroupBox{
+font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(7, 7, 7);
+border-radius: 5;
+}
+
+
+QPushButton{
+background-color:#000000ff;
+}
+
+QPushButton:hover{
+background-color: rgb(53, 53, 79);
+border-radius:20px;
+}</string>
+                 </property>
+                 <property name="title">
+                  <string/>
+                 </property>
+                 <widget class="QTableWidget" name="tablaAntibioticos">
+                  <property name="geometry">
+                   <rect>
+                    <x>50</x>
+                    <y>60</y>
+                    <width>711</width>
+                    <height>141</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+
+background-color: rgb(255, 255, 255);
+</string>
+                  </property>
+                  <attribute name="horizontalHeaderVisible">
+                   <bool>false</bool>
+                  </attribute>
+                  <attribute name="horizontalHeaderCascadingSectionResizes">
+                   <bool>false</bool>
+                  </attribute>
+                  <attribute name="horizontalHeaderDefaultSectionSize">
+                   <number>177</number>
+                  </attribute>
+                  <attribute name="horizontalHeaderHighlightSections">
+                   <bool>true</bool>
+                  </attribute>
+                  <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+                   <bool>false</bool>
+                  </attribute>
+                  <attribute name="horizontalHeaderStretchLastSection">
+                   <bool>false</bool>
+                  </attribute>
+                  <column>
+                   <property name="text">
+                    <string>Nombre</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Dosis</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Tipo Animal</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Precio</string>
+                   </property>
+                  </column>
+                 </widget>
+                 <widget class="QTableWidget" name="tablaPlagas">
+                  <property name="geometry">
+                   <rect>
+                    <x>50</x>
+                    <y>460</y>
+                    <width>711</width>
+                    <height>151</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+
+background-color: rgb(255, 255, 255);
+</string>
+                  </property>
+                  <attribute name="horizontalHeaderDefaultSectionSize">
+                   <number>141</number>
+                  </attribute>
+                  <column>
+                   <property name="text">
+                    <string>ICA</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Nombre</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Frecuencia</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Carencia</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Precio</string>
+                   </property>
+                  </column>
+                 </widget>
+                 <widget class="QTableWidget" name="tablaFertilizante">
+                  <property name="geometry">
+                   <rect>
+                    <x>40</x>
+                    <y>260</y>
+                    <width>731</width>
+                    <height>141</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+
+background-color: rgb(255, 255, 255);
+</string>
+                  </property>
+                  <attribute name="horizontalHeaderDefaultSectionSize">
+                   <number>145</number>
+                  </attribute>
+                  <column>
+                   <property name="text">
+                    <string>ICA</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Nombre</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Frecuencia</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>U.Aplicacion</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Precio</string>
+                   </property>
+                   <property name="whatsThis">
+                    <string/>
+                   </property>
+                   <property name="textAlignment">
+                    <set>AlignCenter</set>
+                   </property>
+                  </column>
+                 </widget>
+                 <widget class="QLabel" name="label_4">
+                  <property name="geometry">
+                   <rect>
+                    <x>50</x>
+                    <y>20</y>
+                    <width>141</width>
+                    <height>31</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>Antibioticos:</string>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_5">
+                  <property name="geometry">
+                   <rect>
+                    <x>60</x>
+                    <y>220</y>
+                    <width>151</width>
+                    <height>31</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>Fertilizantes:</string>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_7">
+                  <property name="geometry">
+                   <rect>
+                    <x>50</x>
+                    <y>430</y>
+                    <width>321</width>
+                    <height>31</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>Producto control de Plagas:</string>
+                  </property>
+                 </widget>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="Facturas">
+                <widget class="QGroupBox" name="groupBox_6">
+                 <property name="geometry">
+                  <rect>
+                   <x>10</x>
+                   <y>10</y>
+                   <width>781</width>
+                   <height>191</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QGroupBox{
+font: 87 20pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(7, 7, 7);
+border-radius: 5;
+}
+
+
+QPushButton{
+background-color:#000000ff;
+}
+
+QPushButton:hover{
+background-color: rgb(53, 53, 79);
+border-radius:20px;
+}</string>
+                 </property>
+                 <property name="title">
+                  <string>Facturacion/Comprar</string>
+                 </property>
+                 <widget class="QLabel" name="label_8">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>70</y>
+                    <width>241</width>
+                    <height>31</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>Nombre del producto</string>
+                  </property>
+                 </widget>
+                 <widget class="QLineEdit" name="nombreProComprar">
+                  <property name="geometry">
+                   <rect>
+                    <x>250</x>
+                    <y>80</y>
+                    <width>171</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_9">
+                  <property name="geometry">
+                   <rect>
+                    <x>440</x>
+                    <y>70</y>
+                    <width>81</width>
+                    <height>31</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>Fecha:</string>
+                  </property>
+                 </widget>
+                 <widget class="QLineEdit" name="fechaFactura">
+                  <property name="geometry">
+                   <rect>
+                    <x>530</x>
+                    <y>80</y>
+                    <width>171</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLineEdit" name="facturaCliente">
+                  <property name="geometry">
+                   <rect>
+                    <x>250</x>
+                    <y>150</y>
+                    <width>171</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_10">
+                  <property name="geometry">
+                   <rect>
+                    <x>40</x>
+                    <y>140</y>
+                    <width>171</width>
+                    <height>31</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>Cedula cliente:</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="btCrearFactura">
+                  <property name="geometry">
+                   <rect>
+                    <x>530</x>
+                    <y>120</y>
+                    <width>181</width>
+                    <height>61</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 20pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+                  </property>
+                  <property name="text">
+                   <string>Crear</string>
+                  </property>
+                 </widget>
+                </widget>
+                <widget class="QGroupBox" name="groupBox_7">
+                 <property name="geometry">
+                  <rect>
+                   <x>10</x>
+                   <y>220</y>
+                   <width>781</width>
+                   <height>411</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QGroupBox{
+font: 87 20pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(7, 7, 7);
+border-radius: 5;
+}
+
+
+QPushButton{
+background-color:#000000ff;
+}
+
+QPushButton:hover{
+background-color: rgb(53, 53, 79);
+border-radius:20px;
+}</string>
+                 </property>
+                 <property name="title">
+                  <string>Mostar Facturas Cliente</string>
+                 </property>
+                 <widget class="QLineEdit" name="cedulaMostrarFacturas">
+                  <property name="geometry">
+                   <rect>
+                    <x>250</x>
+                    <y>70</y>
+                    <width>171</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_11">
+                  <property name="geometry">
+                   <rect>
+                    <x>40</x>
+                    <y>60</y>
+                    <width>171</width>
+                    <height>31</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>Cedula cliente:</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="btMostraFactura">
+                  <property name="geometry">
+                   <rect>
+                    <x>540</x>
+                    <y>30</y>
+                    <width>181</width>
+                    <height>61</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 20pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+
+</string>
+                  </property>
+                  <property name="text">
+                   <string>Mostrar</string>
+                  </property>
+                 </widget>
+                 <widget class="QTableWidget" name="tablaFacturas">
+                  <property name="geometry">
+                   <rect>
+                    <x>40</x>
+                    <y>110</y>
+                    <width>691</width>
+                    <height>201</height>
+                   </rect>
+                  </property>
+                  <property name="whatsThis">
+                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+
+background-color: rgb(255, 255, 255);
+</string>
+                  </property>
+                  <property name="showGrid">
+                   <bool>true</bool>
+                  </property>
+                  <property name="sortingEnabled">
+                   <bool>false</bool>
+                  </property>
+                  <attribute name="horizontalHeaderDefaultSectionSize">
+                   <number>120</number>
+                  </attribute>
+                  <attribute name="horizontalHeaderStretchLastSection">
+                   <bool>true</bool>
+                  </attribute>
+                  <column>
+                   <property name="text">
+                    <string>Fecha</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Precio</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Nombre del Producto</string>
+                   </property>
+                  </column>
+                 </widget>
+                 <widget class="QLabel" name="label_12">
+                  <property name="geometry">
+                   <rect>
+                    <x>40</x>
+                    <y>340</y>
+                    <width>231</width>
+                    <height>31</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>Valor total facturas:</string>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="precioTotal">
+                  <property name="geometry">
+                   <rect>
+                    <x>290</x>
+                    <y>340</y>
+                    <width>231</width>
+                    <height>31</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </widget>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
